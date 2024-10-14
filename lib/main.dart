@@ -3,7 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pokedex/core/router/app_router.dart';
 import 'package:pokedex/core/theme/themes.dart';
-import 'presentation/providers/locale/app_language_provider.dart';
+import 'presentation/providers/settings_view/app_language_provider.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 import 'package:pokedex/presentation/providers/settings_view/theme_mode_select_provider.dart';

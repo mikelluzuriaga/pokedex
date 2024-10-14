@@ -9,6 +9,7 @@ import 'package:pokedex/presentation/providers/captured_pokemon_list_provider.da
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:pokedex/presentation/providers/pokemon_list_provider.dart';
 import 'package:pokedex/presentation/providers/settings_view/theme_mode_select_provider.dart';
+import 'package:pokedex/presentation/providers/ui/screen_constraints.dart';
 import 'package:pokedex/presentation/widgets/avatar.dart';
 import 'package:pokedex/presentation/widgets/error_display_widget.dart';
 
@@ -181,10 +182,12 @@ class _CaptureButton extends ConsumerWidget {
     final theme = AppTheme.of(context);
     final l10n = AppLocalizations.of(context);
     final toggleCapture = ref.watch(toggleCapturePokemonUcProvider);
+    final screenConstraints = ref.watch(screenWidthProvider);
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 20.0, vertical: 10.0),
-      child: SizedBox(
-        width: double.infinity,
+      child: ConstrainedBox(
+        constraints: BoxConstraints(maxWidth: screenConstraints),
         child: ElevatedButton(
           onPressed: () async {
             final capturedType = await toggleCapture(pokemon);
