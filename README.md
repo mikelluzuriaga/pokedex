@@ -1,8 +1,8 @@
-# pokedex
-
-Ejercicio para code challenge.
+# Pokedex - Ejercicio para code challenge
 
 Arquitectura utilizada: clean architecture
+
+Dispositivos objetivo: Android / iOS / Web
 
 Herramientas más importantes utilizadas:
 
@@ -12,6 +12,8 @@ Herramientas más importantes utilizadas:
 - sembast: almacenamiento local
 - intl Y flutter_localizations: internacionalización
 
+
+# Extra
 
 Además de las exigencias mínimas del ejercicio, se ha creado una página de settings para  poder cambiar el tema a modo dark/light/system, y también se ha añadido gestión de idiomas con intl.
 
