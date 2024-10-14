@@ -1,0 +1,1 @@
+export 'package:pokedex/core/helpers/string_helpers.dart';

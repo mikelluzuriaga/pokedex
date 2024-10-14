@@ -1,0 +1,21 @@
+{
+    "@@locale" : "en",
+    "menuHome" : "Home",
+    "menuCaptured" : "Captured",
+    "menuSettings" : "Settings",
+    "settingsLanguage" : "Language",
+    "settingsTheme" : "Theme",
+    "pokemonList" : "Pokemon list (Kanto)",
+    "pokemonCaptured" : "Captured Pokemons",
+    "pokemonDetails" : "Pokemon details",
+    "types" : "Types",
+    "height" : "Height",
+    "weight" : "Weight",
+    "buttonCapture" : "Capture",
+    "buttonRelease" : "Release",
+    "noCapturedPokemon" : "There is no captured pokemon",
+    "networkErrorMessage" : "Network error. Please check your internet connection and try again.",
+    "databaseErrorMessage" : "Database error. Please try again later.",
+    "unknownErrorMessage" : "An unknown error occurred. Please try again.",
+    "retry" : "Retry"
+}
