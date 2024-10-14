@@ -7,7 +7,7 @@ Arquitectura utilizada: clean architecture
 Herramientas más importantes utilizadas:
 
 - riverpod: gestión de estado
-- g_router: enrutamiento
+- go_router: enrutamiento
 - dio: peticiones HTTP
 - sembast: almacenamiento local
 - intl Y flutter_localizations: internacionalización
